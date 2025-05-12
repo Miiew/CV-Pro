@@ -1,0 +1,34 @@
+.title {
+  &-small {
+    letter-spacing: 0.5rem;
+    font-size: 1.7rem;
+  }
+}
+
+.text {
+  &-primary {
+    color: var(--primary);
+  }
+
+  &-secondary {
+    color: var(--primary-blue);
+  }
+
+  &-tertiary {
+    color: var(--orange);
+  }
+
+  &-hint {
+    color: var(--hint);
+  }
+}
+
+// utility
+
+.mb-5 {
+  margin-bottom: 5rem !important;
+}
+
+.mb-2 {
+  margin-bottom: 2rem !important;
+}
