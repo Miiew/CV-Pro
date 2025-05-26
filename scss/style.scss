@@ -241,13 +241,16 @@ aside {
     }
 
     .social-container {
-      display: flex;
       justify-content: start;
       align-items: center;
       padding: 1rem;
       border-radius: 5px;
       transition: all 0.2s;
       cursor: pointer;
+      p,
+      i {
+        margin-bottom: 2rem;
+      }
       &:hover {
         background: var(--light-hint);
         i {
@@ -278,12 +281,12 @@ main {
   }
 
   h2:first-child {
-    color: var(--dark);
+    color: var(--dark-blue);
   }
 
   h2:nth-of-type(2),
   h3 {
-    color: var(--dark-blue);
+    color: var(--dark);
   }
 
   h2 {
